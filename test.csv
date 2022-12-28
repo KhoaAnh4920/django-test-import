@@ -1,0 +1,7 @@
+firstname,lastname,email,birth_date,contact,parent,id,errors
+test1234567890123456789012345678,Nguyen,test4nguyen@gmail.com,2000-09-04,56364,7,9,"First name can not be than 30 characters, Parent must be a number"
+Test4,test1234567890123456789012345678,test6nguyen@gmail.com,2000-09-04,10000,8,10,"Last name can not be than 30 characters, Parent must be a number"
+Test5,Nguyen,test7nguyengmail,2000-09-04,10000,2,11,"Invalid Email Format, Parent must be a number"
+Test6,Nguyen,test8nguyen@gmail.com,4,10000,2,12,"Invalid Date Format, Parent must be a number"
+Test7,Nguyen,test8nguyen@gmail.com,2000-09-04,,2,13,
+Test8,Nguyen,test8nguyen@gmail.com,2000-09-05,10000,abc,14,"Parent must be a number or NULL, Parent must be a number"
